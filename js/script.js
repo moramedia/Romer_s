@@ -4,6 +4,36 @@
     RT-Theme 16
 */
 
+/*
+
+~index of scripts
+
+1)TWITTER
+2)FLICKR
+3)CYCLE SLIDER
+4)NIVO SLIDER
+5)ACCORDION SLIDER
+6)PHOTO SLIDER
+7)KWICKS
+8)DROP DOWN MENU
+9)PORTFOLIO EFFECT
+10)TABS
+11)SILDE TO TOP
+12)FADE EFFECT FOR GALLERIES
+13)FORM FIELD
+14)FEATURED SLIDER
+15)CAROUSEL
+16)EFFECT FOR PRODUCTS
+17)BLOG POST TYPES EFFECTS
+18)TOOLTIPS
+19)SOCIAL MEDIA ICONS
+20)PRETTY PHOTO
+21)VALIDATE
+22)TWEETS
+23)FLICKR
+
+ */
+
 /* ******************************************************************************* */
   /* TWITTER */
   var twitter_user_name = 'arqrush'; //your twitter username 

@@ -3253,7 +3253,7 @@
 	} 
 
 	/*contact form shortcode */
-	i.decs_text{
+	.decs_text i {
 		font-family: 'Droid Serif', Georgia, "Times New Roman", serif;
 		font-style:italic;  
 		color:#AAAAAA; 

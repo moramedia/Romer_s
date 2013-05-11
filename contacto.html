@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US" class="no-js">
 <head>
 <meta charset="UTF-8"/>
-<title>Confecciones Romer's | Playeras</title>
+<title>Confecciones Romer's | Contacto</title>
 	
 	<link rel='stylesheet' href='css/rt-css-framework.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
@@ -22,8 +22,8 @@
 	<script type='text/javascript' src='js/jquery.tools.min.js'></script>
 	<!-- <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script> -->
 	<script type='text/javascript' src='js/colortip-1.0-jquery.js'></script>
-	<!-- <script type='text/javascript' src='js/jquery.validate.js'></script> -->
-	<!-- <script type='text/javascript' src='js/jquery.form.js'></script> -->
+	<script type='text/javascript' src='js/jquery.validate.js'></script>
+	<script type='text/javascript' src='js/jquery.form.js'></script>
 	<!-- <script type='text/javascript' src='js/jquery.tweet.js'></script> -->
 	<!-- <script type='text/javascript' src='js/jflickrfeed.min.js'></script> -->
 	<script type='text/javascript' src='js/jquery.nivo.slider.pack.js'></script>
@@ -98,56 +98,82 @@
 				
 				<!-- space -->
 				<div class="head_text">
-					<h1>Playeras</h1>
+					<h1>Contáctenos</h1>
 				</div>
 
 				<div class="border-line margin-b20"></div>
 
-				<p>Tenemos tres tipos de playeras por peso:</p>
+				<p>¿Le interesa alguno de nuestros servicios o productos?</p>
 
-				<!-- Product -->
-				<div class="box three first product">
-					<span class="frame block">
-						<a href="#" class="imgeffect link" style="opacity:1;">
-							<span class="imagemask imgeffect link" style="padding-top:0px;"><img src="http://placehold.it/280x180/182D4D/FFFFFF" style="top:0px;" />
-							</span>
-						</a>
-					</span>
-					<div class="product_info">
-						<h5><a href="#">Ligero</a></h5>
-						<p>120 grs.</p>
+				<!-- right column 1:2 -->
+				<div class="template_builder box two first">
+				<h3>Formulario de contacto</h3>
+				
+				<div class="space margin-t10"></div><!-- space bottom margin 10px-->
+					
+					<!-- desc. text --> 	
+					<p class="decs_text">
+						Para atenderle mejor, por favor llene los siguientes campos.<br/>
+						<i>(*) Campos obligatorios</i>
+					</p>
+				
+					<!-- contact form --> 			
+					<div id="result"></div>
+					<div id="contact_form">
+						<form action="contact_form.php" id="validate_form" method="post" class="showtextback">
+							<ul>
+								<li><label for="name">Nombre: (*)</label><input id="name" type="text" name="name" value="" class="required" required /> </li>
+								<li><label for="email">Correo electrónico: (*)</label><input id="email" type="text" name="email" value="" class="required" required	 /> </li>
+								<li><label for="tel">Teléfono:</label><input id="tel" type="tel" name="tel" value=""/> </li>
+								<li><label for="ciudad">Ciudad</label><input id="ciudad" type="text" name="ciudad" value="" /> </li>
+								<li><label for="tipo-tela">Tipo de tela que esta buscando</label><input id="tipo-tela" type="text" name="tipo-tela" list="telas" value="" />
+									<datalist id="telas">
+										<option value="Chiffon">
+										<option value="Rib">
+										<option value="Cardigan">
+										<option value="Pique">
+										<option value="Interlook">
+										<option value="Lycra">
+										<option value="Chiffon rayas (listadora)">
+										<option value="Flame">
+										<option value="Felpa">
+									</datalist>
+								</li>
+								<li><label for="empresa">¿Qué productos fabrica?</label><input id="empresa" type="text" name="empresa" value="" /> </li>
+								<li><label for="message">¿Cómo podemos ayudarlo? (*)</label><textarea  id="message" name="message" rows="8" cols="40" class="required" required ></textarea></li>
+								<li><input type="submit" value="Enviar"  /><span class="loading"></span></li>
+							</ul>
+						</form>
 					</div>
-				</div> <!-- END product -->
+					<!-- /end div .contact_form -->
+							
+					<div class="clear"></div>
+				</div>
+				<!-- / right column -->
 
-				<!-- Product -->
-				<div class="box three product">
-					<span class="frame block">
-						<a href="#" class="imgeffect link" style="opacity:1;">
-							<span class="imagemask imgeffect link" style="padding-top:0px;"><img src="http://placehold.it/280x180/E9500E/FFFFFF" style="top:0px;" />
-							</span>
-						</a>
-					</span>
-					<div class="product_info">
-						<h5><a href="#">Medio</a></h5>
-						<p>150 grs.</p>
-					</div>
-				</div> <!-- END product -->
+				<div class="box two last">
 
-				<!-- Product -->
-				<div class="box three last product">
-					<span class="frame block">
-						<a href="#" class="imgeffect link" style="opacity:1;">
-							<span class="imagemask imgeffect link" style="padding-top:0px;"><img src="http://placehold.it/280x180/" style="top:0px;" />
-							</span>
-						</a>
-					</span>
-					<div class="product_info">
-						<h5><a href="#">Completo</a></h5>
-						<p>180 grs.</p>
-					</div>
-				</div> <!-- END product -->
+				<!-- google maps -->
+				<div>
+					<iframe width="460" height="180" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=19.219049,-98.244244&amp;num=1&amp;t=m&amp;ie=UTF8&amp;source=embed&amp;ll=19.219009,-98.245137&amp;spn=0.001368,0.005043&amp;z=15&amp;output=embed"></iframe>
+				</div>
+				<!-- / google maps -->
 
-				<div class="clearfix margin-b30"></div>
+
+				<div class="border-line margin-t20 margin-b30"></div>
+				<h3>Información de contacto</h3>
+				<p>También puede contactarnos por otros medios.</p>
+
+				<!-- contact list -->
+				<ul class="contact_list">
+					<li class="home">Avenida Puebla No. 152 (anterior 15)<br/>Sección 2a. <br/>Zacatelco, Tlaxcala</li>
+					<li class="phone">01 (246) 497 02 36<br/>01 (246) 497 72 80</li>
+					<li class="mail"><a href="mailto:info@company.com">contacto@confeccionesromers.com</a></li>
+				</ul><!-- / end ul .contact_list -->
+
+
+
+				</div>
 				
 
 			</div><!-- / end div .content -->	

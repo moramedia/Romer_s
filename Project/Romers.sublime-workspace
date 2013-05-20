@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/contacto.html",
+			"settings":
+			{
+				"buffer_size": 10035,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -644,12 +652,17 @@
 	},
 	"file_history":
 	[
+		"/Users/moramedia/Documents/Resources/Web/Sliders/woothemes-FlexSlider-a4647ed/README.mdown",
+		"/Users/moramedia/Sites/Romer_s/contact_form.php",
+		"/Users/moramedia/Sites/Romer_s/index.html",
+		"/Users/moramedia/Sites/Romer_s/.htaccess",
+		"/Users/moramedia/Sites/Romer_s/js/script.js",
 		"/Users/moramedia/Sites/Romer_s/css/style.css",
+		"/Users/moramedia/Sites/Romer_s/playeras.html",
 		"/Users/moramedia/Sites/Romer_s/telas.html",
 		"/Users/moramedia/Sites/Romer_s/romers.html",
 		"/Users/moramedia/Sites/Romer's/js/script.js",
 		"/Users/moramedia/Sites/Romer's/css/style.css",
-		"/Users/moramedia/Sites/Romer_s/index.html",
 		"/Users/moramedia/Sites/Romer_s/mixture.json",
 		"/Users/moramedia/Sites/Romer's/index.html",
 		"/Users/moramedia/Sites/Romer's/js/jquery.tweet.js",
@@ -726,6 +739,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form",
+			"php",
+			"tipo-tela",
+			"company_url",
+			"</option>",
+			"desc",
+			"about-us",
 			"Descripci",
 			"h3",
 			"Ac",
@@ -819,8 +839,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/moramedia/Sites/Romer_s/contacto.html",
+					"settings":
+					{
+						"buffer_size": 10035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9819,
+								9819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

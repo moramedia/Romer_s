@@ -36,7 +36,8 @@
 
 	/* columns common style */
 	.box{
-		margin:0 10px;
+		margin:0 1.063829787%; /* 10 / 940 */
+		/* TODO: Jump cuando sea ilegible */
 		padding:0;
 		display:inline; 
 		float:left;
@@ -103,17 +104,17 @@
 	
 	/* two */  .box.two{width:460px;}
 	
-	/* three */  .box.three{width:300px;}
+	/* three */  .box.three{width:31.914893617%;} /* 300 / 940 */
 	
-	/* Four */  .box.four{width:220px;}
+	/* Four */  .box.four{width:23.404255319%;}	/* 220 / 940 */
 	
-	/* Five */  .box.five{width:172px;}
+	/* Five */  .box.five{width:18.29787234%;}	/* 172 / 940 */
 	
-	/* 2:3 column */  .box.two-three{width:620px;}
+	/* 2:3 column */  .box.two-three{width:65.957446809%;}	/* 620 / 940 */
 	
-	/* 3:4 column */ .box.three-four{width:700px;}
+	/* 3:4 column */ .box.three-four{width:74.468085106%;}	/* 700 / 940 */
 	
-	/* 4:5 column */  .box.four-five{width:748px;}
+	/* 4:5 column */  .box.four-five{width:79.574468085%;}	/* 748 / 940 */
 	
  
 	/*

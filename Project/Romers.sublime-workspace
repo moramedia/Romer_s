@@ -520,10 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/moramedia/Sites/Romer_s/contacto.html",
+			"file": "/Users/moramedia/Sites/Romer_s/css/style.css",
 			"settings":
 			{
-				"buffer_size": 10035,
+				"buffer_size": 77127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/css/rt-css-framework.css",
+			"settings":
+			{
+				"buffer_size": 3406,
 				"line_ending": "Unix"
 			}
 		}
@@ -652,9 +660,11 @@
 	},
 	"file_history":
 	[
+		"/Users/moramedia/Sites/Romer_s/index.html",
+		"/Users/moramedia/Sites/Romer_s/js/jquery.nivo.slider.pack.js",
+		"/Users/moramedia/Sites/Romer_s/contacto.html",
 		"/Users/moramedia/Documents/Resources/Web/Sliders/woothemes-FlexSlider-a4647ed/README.mdown",
 		"/Users/moramedia/Sites/Romer_s/contact_form.php",
-		"/Users/moramedia/Sites/Romer_s/index.html",
 		"/Users/moramedia/Sites/Romer_s/.htaccess",
 		"/Users/moramedia/Sites/Romer_s/js/script.js",
 		"/Users/moramedia/Sites/Romer_s/css/style.css",
@@ -739,6 +749,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"footer_",
+			"220",
+			".box.three",
+			"fullwid",
+			"content",
+			"header",
 			"form",
 			"php",
 			"tipo-tela",
@@ -844,27 +860,54 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/moramedia/Sites/Romer_s/contacto.html",
+					"file": "/Users/moramedia/Sites/Romer_s/css/style.css",
 					"settings":
 					{
-						"buffer_size": 10035,
+						"buffer_size": 77127,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9819,
-								9819
+								29417,
+								29417
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/moramedia/Sites/Romer_s/css/rt-css-framework.css",
+					"settings":
+					{
+						"buffer_size": 3406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2182,
+								2182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1384.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

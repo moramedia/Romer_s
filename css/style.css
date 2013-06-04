@@ -1615,7 +1615,7 @@
 	
 	#footer .footer_info{
 		margin:0 auto 20px auto;
-		width:920px;
+		width:97.872340426%;	/*	920 / 940 */
 		display:block;
 	}
 	

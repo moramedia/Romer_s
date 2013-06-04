@@ -7,6 +7,7 @@
 ------------------------------------------------------- */  
 
 	@import url("normalize.css");
+	@import url("media-q.min.css");
 
 
 	/* margins */
@@ -63,7 +64,7 @@
 
 	/* box border with shadow */
 	.box .padding-div{  
-		margin:20px 10px 1px 10px;
+		margin:20px 1.063829787% 1px; /* 10 / 940 */
 		overflow:hidden;
 	}
 
@@ -102,7 +103,7 @@
 	columns for sub pages - full width
 	*/
 	
-	/* two */  .box.two{width:460px;}
+	/* two */  .box.two{width:48.936170213%;}	/* 460 / 940 */
 	
 	/* three */  .box.three{width:31.914893617%;} /* 300 / 940 */
 	
@@ -167,4 +168,14 @@
 	.boxes{
 		clear:both;
 		display:block;
+	}
+
+	/* iframe google maps */
+
+	.g-maps {
+		width: 100%;
+	}
+
+	.g-maps iframe {
+		width: inherit;
 	}

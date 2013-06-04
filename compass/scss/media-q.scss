@@ -1,0 +1,80 @@
+// This is the media queries file for the framework
+
+// $baby: 480px;
+// $junior: 768px;
+
+@mixin breakpoint($point) {
+	@if $point == father {
+		@media (max-width: 960px ) { @content; }
+	}
+	@else if $point == jr {
+		@media (max-width: 768px ) { @content; }
+	}
+	@else if $point == baby {
+		@media (max-width: 480px ) { @content; }
+	}
+}
+
+
+#logo {
+	@include breakpoint(father) {
+		margin-left:30px;
+	}
+	@include breakpoint(jr) {
+		float:none;
+		margin: 30px;
+		padding:0;	
+	}
+}
+
+#navigation_bar {
+	@include breakpoint(jr) {
+		width:100%;
+		padding:0;
+	}
+}
+
+// Slider stuffz
+
+.nivo-caption {
+	@include breakpoint(jr) { z-index:-10; }
+	@include breakpoint(baby) { z-index:-10; }
+}
+
+.banner {
+	@include breakpoint(jr) {
+		padding:30px 20px;
+		width: inherit;
+	}
+}
+
+.content.fullwidth {
+	@include breakpoint(jr) {
+		padding:0 20px;
+		width:inherit;
+	}
+}
+
+.box .padding-div {
+	@include breakpoint(jr) { margin:20px 10px 1px; }
+}
+
+.box {
+	@include breakpoint(baby) { margin:0; }
+}
+
+.box.three {
+	@include breakpoint(baby) { width:100%; } 
+}
+
+.footer > .padding-div {
+	@include breakpoint(jr) {  margin-left:20px; margin-right:0; }
+}
+
+.footer.box.three {
+	@include breakpoint(baby) { width:100%; }
+}
+
+.footer.box.two-three {
+	@include breakpoint(baby) { width:inherit; }
+}

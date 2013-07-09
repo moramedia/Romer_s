@@ -1,4 +1,13 @@
 
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^confeccionesromers\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.confeccionesromers\.com$
+RewriteRule ^/?$ "http\:\/\/confeccionesromers\.com\.mx" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^confeccionesromers\.mx$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.confeccionesromers\.mx$
+RewriteRule ^/?$ "http\:\/\/confeccionesromers\.com\.mx" [R=301,L]
+
 # ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------

@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"word",
-				"wordpress"
+				"hi",
+				"hidden"
+			],
+			[
+				"visi",
+				"visibility"
 			],
 			[
 				"mar",
-				"margin-left"
+				"margin"
+			],
+			[
+				"word",
+				"wordpress"
 			],
 			[
 				"margin",
@@ -506,24 +514,56 @@
 			[
 				"na",
 				"nav	Tag"
-			],
-			[
-				"head",
-				"header	Tag"
-			],
-			[
-				"vi",
-				"viewportWidth"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/moramedia/Documents/Resources/Web/Templates/maitim/README.md",
+			"file": "/Users/moramedia/Sites/Romer_s/index.html",
 			"settings":
 			{
-				"buffer_size": 2234,
+				"buffer_size": 14290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/compass/scss/media-q.scss",
+			"settings":
+			{
+				"buffer_size": 1957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/romers.html",
+			"settings":
+			{
+				"buffer_size": 9430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/css/style.css",
+			"settings":
+			{
+				"buffer_size": 77097,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/contacto.html",
+			"settings":
+			{
+				"buffer_size": 10227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/moramedia/Sites/Romer_s/.htaccess",
+			"settings":
+			{
+				"buffer_size": 2159,
 				"line_ending": "Unix"
 			}
 		}
@@ -656,6 +696,7 @@
 	},
 	"file_history":
 	[
+		"/Users/moramedia/Documents/Resources/Web/Templates/maitim/README.md",
 		"/Users/moramedia/Sites/Romer_s/css/rt-css-framework.css",
 		"/Users/moramedia/Sites/Romer_s/index.html",
 		"/Users/moramedia/Sites/Romer_s/compass/scss/media-q.scss",
@@ -860,15 +901,150 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/moramedia/Documents/Resources/Web/Templates/maitim/README.md",
+					"file": "/Users/moramedia/Sites/Romer_s/index.html",
 					"settings":
 					{
-						"buffer_size": 2234,
+						"buffer_size": 14290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4260,
+								4260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1079.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/moramedia/Sites/Romer_s/compass/scss/media-q.scss",
+					"settings":
+					{
+						"buffer_size": 1957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1773,
+								1773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/moramedia/Sites/Romer_s/romers.html",
+					"settings":
+					{
+						"buffer_size": 9430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5614,
+								5614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/moramedia/Sites/Romer_s/css/style.css",
+					"settings":
+					{
+						"buffer_size": 77097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15742,
+								15742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13459.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/moramedia/Sites/Romer_s/contacto.html",
+					"settings":
+					{
+						"buffer_size": 10227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5943,
+								5943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1589.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/moramedia/Sites/Romer_s/.htaccess",
+					"settings":
+					{
+						"buffer_size": 2159,
 						"regions":
 						{
 						},
@@ -881,7 +1057,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

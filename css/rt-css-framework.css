@@ -37,7 +37,6 @@
 	/* columns common style */
 	.box{
 		margin:0 1.063829787%; /* 10 / 940 */
-		/* TODO: Jump cuando sea ilegible */
 		padding:0;
 		display:inline; 
 		float:left;

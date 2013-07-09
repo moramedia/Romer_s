@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"word",
+				"wordpress"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"pad",
+				"padding-div"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
 				"up",
 				"uppercase"
 			],
@@ -72,10 +104,6 @@
 				"important"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"padd",
 				"padding-top"
 			],
@@ -126,10 +154,6 @@
 			[
 				"marg",
 				"margin-bottom"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"cat",
@@ -252,24 +276,12 @@
 				"both"
 			],
 			[
-				"margin",
-				"margin-right"
-			],
-			[
-				"ma",
-				"margin-left"
-			],
-			[
 				"rig",
 				"right"
 			],
 			[
 				"siz",
 				"font-size"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"con",
@@ -364,10 +376,6 @@
 				"Sans"
 			],
 			[
-				"fo",
-				"font-weight"
-			],
-			[
 				"Ab",
 				"AbrilW01-DisplayItalic"
 			],
@@ -414,10 +422,6 @@
 			[
 				"san",
 				"sans-serif"
-			],
-			[
-				"li",
-				"li	Tag"
 			],
 			[
 				"rel",
@@ -510,28 +514,16 @@
 			[
 				"vi",
 				"viewportWidth"
-			],
-			[
-				"re",
-				"resizrr"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/moramedia/Sites/Romer_s/css/style.css",
+			"file": "/Users/moramedia/Documents/Resources/Web/Templates/maitim/README.md",
 			"settings":
 			{
-				"buffer_size": 77127,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/moramedia/Sites/Romer_s/css/rt-css-framework.css",
-			"settings":
-			{
-				"buffer_size": 3406,
+				"buffer_size": 2234,
 				"line_ending": "Unix"
 			}
 		}
@@ -539,9 +531,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 167.0,
+		"height": 87.0,
 		"selected_items":
 		[
+			[
+				"sy scs",
+				"Set Syntax: SCSS"
+			],
 			[
 				"lore",
 				"Snippet: Lorem ipsum"
@@ -643,7 +639,7 @@
 				"Set Syntax: Ruby Haml"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -660,17 +656,22 @@
 	},
 	"file_history":
 	[
+		"/Users/moramedia/Sites/Romer_s/css/rt-css-framework.css",
 		"/Users/moramedia/Sites/Romer_s/index.html",
-		"/Users/moramedia/Sites/Romer_s/js/jquery.nivo.slider.pack.js",
+		"/Users/moramedia/Sites/Romer_s/compass/scss/media-q.scss",
+		"/Users/moramedia/Library/Caches/Cleanup At Startup/Transmit/1D6C1EFE-6EED-4E6D-BAEA-0A251DC11710/header.php",
+		"/Users/moramedia/Library/Caches/Cleanup At Startup/Transmit/C3EFB7C4-5FDD-4C57-AA37-D3193C054654/wp-config.php",
+		"/Users/moramedia/Sites/Romer_s/romers.html",
+		"/Users/moramedia/Sites/Romer_s/playeras.html",
 		"/Users/moramedia/Sites/Romer_s/contacto.html",
+		"/Users/moramedia/Sites/Romer_s/telas.html",
+		"/Users/moramedia/Sites/Romer_s/scss/media-q.scss",
+		"/Users/moramedia/Sites/Romer_s/css/style.css",
+		"/Users/moramedia/Sites/Romer_s/js/jquery.nivo.slider.pack.js",
 		"/Users/moramedia/Documents/Resources/Web/Sliders/woothemes-FlexSlider-a4647ed/README.mdown",
 		"/Users/moramedia/Sites/Romer_s/contact_form.php",
 		"/Users/moramedia/Sites/Romer_s/.htaccess",
 		"/Users/moramedia/Sites/Romer_s/js/script.js",
-		"/Users/moramedia/Sites/Romer_s/css/style.css",
-		"/Users/moramedia/Sites/Romer_s/playeras.html",
-		"/Users/moramedia/Sites/Romer_s/telas.html",
-		"/Users/moramedia/Sites/Romer_s/romers.html",
 		"/Users/moramedia/Sites/Romer's/js/script.js",
 		"/Users/moramedia/Sites/Romer's/css/style.css",
 		"/Users/moramedia/Sites/Romer_s/mixture.json",
@@ -749,6 +750,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"padding-div",
+			"box",
+			"ifra",
+			"10px",
 			"footer_",
 			"220",
 			".box.three",
@@ -860,54 +865,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/moramedia/Sites/Romer_s/css/style.css",
+					"file": "/Users/moramedia/Documents/Resources/Web/Templates/maitim/README.md",
 					"settings":
 					{
-						"buffer_size": 77127,
+						"buffer_size": 2234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29417,
-								29417
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/moramedia/Sites/Romer_s/css/rt-css-framework.css",
-					"settings":
-					{
-						"buffer_size": 3406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2182,
-								2182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1384.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

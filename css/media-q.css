@@ -1,3 +1,9 @@
+.show-on-baby {
+  visibility: hidden; }
+  @media (max-width: 480px) {
+    .show-on-baby {
+      visibility: visible; } }
+
 @media (max-width: 960px) {
   #logo {
     margin-left: 30px; } }
@@ -23,6 +29,13 @@
   .banner {
     padding: 30px 20px;
     width: inherit; } }
+@media (max-width: 480px) {
+  .banner {
+    display: none; } }
+
+@media (max-width: 480px) {
+  .banner-lines {
+    display: none; } }
 
 @media (max-width: 768px) {
   .content.fullwidth {
@@ -35,12 +48,28 @@
 
 @media (max-width: 480px) {
   .box {
-    margin: 0; } }
+    margin: 0 0 10px 0; } }
 
 @media (max-width: 480px) {
   .box.three {
     width: 100%; } }
+@media (max-width: 768px) {
+  .box.three {
+    width: 100%;
+    margin-bottom: 1.3em; } }
 
+@media (max-width: 768px) {
+  .box.two-three {
+    width: 100%; } }
+@media (max-width: 480px) {
+  .box.two-three {
+    width: 100%; } }
+
+@media (max-width: 480px) {
+  .box.baby-not {
+    width: 100%; } }
+
+/****************** FOOTER ********************/
 @media (max-width: 768px) {
   .footer > .padding-div {
     margin-left: 20px;
@@ -53,3 +82,12 @@
 @media (max-width: 480px) {
   .footer.box.two-three {
     width: inherit; } }
+
+/****************** Contact Form ********************/
+@media (max-width: 480px) {
+  .box.contacto {
+    width: 100%; } }
+
+@media (max-width: 480px) {
+  .box.contacto-info {
+    width: 100%; } }

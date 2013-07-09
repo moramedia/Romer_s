@@ -1,7 +1,10 @@
 // This is the media queries file for the framework
 
+// $father: 960px;
 // $baby: 480px;
 // $junior: 768px;
+
+
 
 @mixin breakpoint($point) {
 	@if $point == father {
@@ -13,6 +16,14 @@
 	@else if $point == baby {
 		@media (max-width: 480px ) { @content; }
 	}
+}
+
+
+// Misc
+
+.show-on-baby {
+	visibility:hidden;
+	@include breakpoint(baby) { visibility:visible; }
 }
 
 
@@ -46,6 +57,11 @@
 		padding:30px 20px;
 		width: inherit;
 	}
+	@include breakpoint(baby) { display:none; }
+}
+
+.banner-lines {
+	@include breakpoint(baby) { display:none; }
 }
 
 .content.fullwidth {
@@ -60,12 +76,24 @@
 }
 
 .box {
-	@include breakpoint(baby) { margin:0; }
+	@include breakpoint(baby) { margin:0 0 10px 0; }
 }
 
 .box.three {
-	@include breakpoint(baby) { width:100%; } 
+	@include breakpoint(baby) { width:100%; }
+	@include breakpoint(jr) { width:100%; margin-bottom:1.3em; } 
 }
+
+.box.two-three {
+	@include breakpoint(jr) {width:100%;}
+	@include breakpoint(baby) {width:100%;}
+}
+
+.box.baby-not {
+	@include breakpoint(baby) {width:100%;}
+}
+
+/****************** FOOTER ********************/
 
 .footer > .padding-div {
 	@include breakpoint(jr) {  margin-left:20px; margin-right:0; }
@@ -77,4 +105,15 @@
 
 .footer.box.two-three {
 	@include breakpoint(baby) { width:inherit; }
+}
+
+
+/****************** Contact Form ********************/
+
+.box.contacto {
+	@include breakpoint(baby) { width:100%; }
+}
+
+.box.contacto-info {
+	@include breakpoint(baby) { width:100%;}
 }

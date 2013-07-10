@@ -3962,3 +3962,18 @@
 		list-style:none;
 		padding:10px;
 	}
+
+/*---------------------------------------------------- 
+	Miscelaneous shite
+----------------------------------------------------*/
+
+	.texture {
+		height: 100px;
+		width: 100%;
+		background-image: url('../images/photos/texture.jpg');
+	}
+
+
+	.picture .sml img { width: 100%; }
+	.hd-logo img { width: 50%; }
+

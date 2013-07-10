@@ -126,6 +126,7 @@
 	@include breakpoint(baby) { width:100%;}
 }
 
-.nivoSlider img {
-	@include breakpoint(baby) { width:460px; height:200px; }
+.g-maps iframe {
+	@include breakpoint(baby) { height:290px; }
 }
+

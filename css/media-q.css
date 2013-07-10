@@ -102,6 +102,5 @@
     width: 100%; } }
 
 @media (max-width: 480px) {
-  .nivoSlider img {
-    width: 460px;
-    height: 200px; } }
+  .g-maps iframe {
+    height: 290px; } }

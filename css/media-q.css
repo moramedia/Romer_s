@@ -92,6 +92,18 @@
   .footer.box.two-three {
     width: inherit; } }
 
+@media (max-width: 480px) {
+  .social_media {
+    clear: both;
+    text-align: center;
+    width: 100%; } }
+
+@media (max-width: 480px) {
+  #footer ul.social_media_icons {
+    display: inline-block;
+    float: none;
+    margin-top: 1em; } }
+
 /****************** Contact Form ********************/
 @media (max-width: 480px) {
   .box.contacto {
@@ -104,3 +116,12 @@
 @media (max-width: 480px) {
   .g-maps iframe {
     height: 290px; } }
+
+/****************** Contact Form ********************/
+@media (max-width: 480px) {
+  .product .block {
+    width: 95%; } }
+
+@media (max-width: 480px) {
+  .frame .imagemask {
+    width: 100%; } }

@@ -115,6 +115,22 @@
 	@include breakpoint(baby) { width:inherit; }
 }
 
+.social_media {
+	@include breakpoint(baby) { 
+		clear:both;
+		text-align:center;
+		width:100%;
+		}
+}
+
+#footer ul.social_media_icons {
+	@include breakpoint(baby) {
+		display:inline-block;
+		float:none;
+		margin-top: 1em;
+	}
+}
+
 
 /****************** Contact Form ********************/
 
@@ -130,3 +146,12 @@
 	@include breakpoint(baby) { height:290px; }
 }
 
+/****************** Contact Form ********************/
+
+.product .block {
+	@include breakpoint(baby) { width:95%; }
+}
+
+.frame .imagemask {
+	@include breakpoint(baby) { width:100%; }
+}
